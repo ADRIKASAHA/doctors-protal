@@ -17,7 +17,7 @@ const Navber = () => {
                         {menuItems}
                     </ul>
                     </div>
-                    {<Link to='/' className="btn btn-ghost normal-case text-xl">DOCTOR'S CLINICE</Link>
+                    {<Link to='/' className="btn btn-ghost normal-case text-xl">DOCTOR'S CLINIC</Link>
                     //  <a to='/' className="btn btn-ghost normal-case text-xl">DOCTOR'S CLINICE</a> 
                     }
                 </div>
