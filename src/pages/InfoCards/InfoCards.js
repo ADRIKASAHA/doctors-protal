@@ -16,14 +16,14 @@ const InfoCards = () => {
         {
             id : 2,
             name : 'Our Location',
-            description : 'Open 9.00am to 5.00pm everyday',
+            description : 'Banani',
             icon : marker ,
             bgClass : 'bg-gradient-to-r from-purple-500 to-pink-500'
         },
         {
             id : 3,
             name : 'Contact Us',
-            description : 'Open 9.00am to 5.00pm everyday',
+            description : '+33486',
             icon :phone ,
             bgClass : 'bg-gradient-to-r from-purple-500 to-pink-500'
         },
@@ -31,9 +31,9 @@ const InfoCards = () => {
     return(
         <div className='grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
             {
-                cardData.map(card => <InfoCard>
+                cardData.map(card => <InfoCard 
                     key={card.id}
-                    card ={card}
+                    card ={card}>
                 </InfoCard>)
             }
 

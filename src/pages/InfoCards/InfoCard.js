@@ -3,8 +3,8 @@ import React from 'react';
 
 
 const InfoCard = ({card}) => {
-    const { name, descripation, icon, bgClass} = card;
-   console.log(card);
+    const { name, description, icon, bgClass} = card;
+//    console.log(card);
     return(
         <div className={`card text-white mt-8 p-6  card-side  shadow-xl ${bgClass}`}>
             <figure>
@@ -12,7 +12,7 @@ const InfoCard = ({card}) => {
             </figure>
             <div className="card-body">
                 <h2 className="card-title">{name}</h2>
-                <p>{descripation}</p>
+                <p>{description}</p>
                 {/* <div className="card-actions justify-end">
                 <button className="btn btn-primary">Watch</button>
                 </div> */}
