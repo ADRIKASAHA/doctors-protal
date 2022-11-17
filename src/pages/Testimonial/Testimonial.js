@@ -17,7 +17,7 @@ const Testimonial = () => {
         },
         {
             _id: 2,
-            name: 'Winson Herry',
+            name: 'Mary',
             img: people2,
             reviewss: 'It is a long established fact that by the readable content of a lot layout. The point of using Lorem a more-or-less normal distribu to using Content here, content',
             location: 'California'
@@ -25,7 +25,7 @@ const Testimonial = () => {
         },
         {
             _id: 3,
-            name: 'Winson Herry',
+            name: 'Shu',
             img: people3,
             reviewss: 'It is a long established fact that by the readable content of a lot layout. The point of using Lorem a more-or-less normal distribu to using Content here, content',
             location: 'California'
@@ -41,7 +41,7 @@ const Testimonial = () => {
                 </div>
                 
                 <figure>
-                        <img classname='w-24 lg:w-48'src={quote} alt=''/>
+                        <img className='w-24 lg:w-48'src={quote} alt=''/>
                 </figure>
 
               
