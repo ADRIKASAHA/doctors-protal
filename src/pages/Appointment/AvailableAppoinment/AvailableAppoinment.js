@@ -2,10 +2,10 @@ import { format } from 'date-fns';
 import React, { useEffect, useState } from 'react';
 // import React, { useState } from 'react';
 import AppointmentOptions from './AppointmentOptions';
-//import Appointment from '../Appointment/Appointment';
 
 
-const AvailableAppoinment = (selectedDate) => {
+
+const AvailableAppoinment = ({selectedDate}) => {
     const [appointmentOptions, setAppointmentOptions] = useState([])
 
     useEffect(() => {
@@ -15,7 +15,7 @@ const AvailableAppoinment = (selectedDate) => {
     },[])
     return (
         <section className='mt-16'>
-            <p className='text-center text-primary font-bold'>Available Appointments on {format(selectedDate,'PP')}</p>
+            <p className='text-center text-primary font-bold'>Available Appointments on {format(selectedDate,'Pp')}</p>
 
             <div className='grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-6'>
                 {
